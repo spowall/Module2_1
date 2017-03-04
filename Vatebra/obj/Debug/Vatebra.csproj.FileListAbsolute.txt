@@ -1,0 +1,6 @@
+D:\Projects\Training\Vatebra\Vatebra\bin\Debug\Vatebra.exe.config
+D:\Projects\Training\Vatebra\Vatebra\bin\Debug\Vatebra.exe
+D:\Projects\Training\Vatebra\Vatebra\bin\Debug\Vatebra.pdb
+D:\Projects\Training\Vatebra\Vatebra\obj\Debug\Vatebra.csprojResolveAssemblyReference.cache
+D:\Projects\Training\Vatebra\Vatebra\obj\Debug\Vatebra.exe
+D:\Projects\Training\Vatebra\Vatebra\obj\Debug\Vatebra.pdb
