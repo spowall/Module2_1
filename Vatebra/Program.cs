@@ -8,26 +8,26 @@ namespace Vatebra
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             /*
             * What is your First Name
             * How old are you
             * What is your Surname
             */
-            /*string question1 = "What is your First Name";
+            string question1 = "What is your First Name";
+            var answer1 = AskQuestion(question1);
 
-            Console.WriteLine(question1);
-            string answer1 = Console.ReadLine();
 
             string question2 = "How old are you";
-            Console.WriteLine(question2);
-            string answer2 = Console.ReadLine();
- 
+            string answer2 = AskQuestion(question2);
+
+            int age = int.Parse(answer2);
+
 
             string question3 = "What is your Surname";
-            Console.WriteLine(question3);
-            string answer3 = Console.ReadLine();
+
+            string answer3 = AskQuestion(question3);
 
             Console.WriteLine("\n");
             Console.WriteLine("--------------------------------------------------------------");
@@ -35,9 +35,27 @@ namespace Vatebra
             Console.WriteLine("--------------------------------------------------------------");
             Console.WriteLine("Your first Name is: " + answer1);
             Console.WriteLine("You are " + answer2 + " years old");
-            Console.WriteLine("Your surname is " + answer3);*/
 
+            if (age > 50)
+            {
+                Console.WriteLine("You are Old");
+            }
+            else if (age < 50)
+            {
+                Console.WriteLine("You are ");
+            }
+            else
+            {
+                Console.WriteLine("You are a Child");
+            }
+            Console.WriteLine("Your surname is " + answer3);
+        }
 
+        static string AskQuestion(string question)
+        {
+            Console.WriteLine(question);
+            string answer = Console.ReadLine();
+            return answer;
         }
     }
 }
